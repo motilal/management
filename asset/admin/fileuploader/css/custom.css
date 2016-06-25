@@ -1,0 +1,51 @@
+.btn-del-img {
+    background: rgba(0, 0, 0, 0) url("../img/delete_icon.png") no-repeat scroll 0 0;
+    color: #ffffff;
+    font-size: 0;
+    height: 31px;
+    width: 32px;
+}
+.btn-del-img:active{
+    background: rgba(0, 0, 0, 0) url("../img/delete_icon.png") no-repeat scroll 0 0;
+}
+.btn-ok-image {
+    background: rgba(0, 0, 0, 0) url("../img/start_upload_icon.png") no-repeat scroll 0 0;
+    border: medium none;
+    font-size: 0;
+    height: 31px;
+    width: 34px;
+}
+.btn-ok-image :active{
+    background: rgba(0, 0, 0, 0) url("../img/start_upload_icon.png") no-repeat scroll 0 0;
+}
+
+.btn-cancel-image {
+    background: rgba(0, 0, 0, 0) url("../img/cancel_upload_icon.png") no-repeat scroll 0 0;
+    border: medium none;
+    font-size: 0;
+    height: 31px;
+    width: 34px;
+}
+.btn-cancel-image:active {
+    background: rgba(0, 0, 0, 0) url("../img/cancel_upload_icon.png") no-repeat scroll 0 0;
+}
+
+tbody.files > tr > td{
+    vertical-align: middle;
+}
+tbody.files > tr > td > p.name a{
+    color: #8C8888;
+    text-decoration: none;
+}
+tbody.files > tr > td > input.toggle{
+    position: relative;
+    top: 3px;
+} 
+tbody.files > tr > td > div.dis-upl-imae {
+    background: #f7f2f2 none repeat scroll 0 0;
+    display: table-cell;
+    height: 100px;
+    text-align: center;
+    vertical-align: middle;
+    width: 100px;
+}
